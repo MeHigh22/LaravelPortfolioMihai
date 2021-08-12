@@ -15,6 +15,14 @@ class CreateAboutsTable extends Migration
     {
         Schema::create('abouts', function (Blueprint $table) {
             $table->id();
+            $table->string("birthday", 40);
+            $table->string("website", 40);
+            $table->string("phone", 40);
+            $table->string("city", 40);
+            $table->string("age", 40);
+            $table->string("degree", 40);
+            $table->string("email", 40);
+            $table->string("freelance", 40);
             $table->timestamps();
         });
     }
