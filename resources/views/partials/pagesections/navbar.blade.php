@@ -5,7 +5,7 @@
         <div class="d-flex flex-column">
 
             <div class="profile">
-                <img src="{{asset('assets/img/profile-img.jpg')}}" alt="" class="img-fluid rounded-circle">
+                <img src="{{asset('img/profile-img.jpg')}}" alt="" class="img-fluid rounded-circle">
                 <h1 class="text-light"><a href="index.html">Patap Mihai</a></h1>
                 <div class="social-links mt-3 text-center">
                     <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
