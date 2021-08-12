@@ -21,6 +21,7 @@
                     <div class="row">
                         <div class="col-lg-6">
                             <ul>
+                                {{-- A partir d'ici insérer les données à partir de la DB --}}
                                 <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 1 May 1995</li>
                                 <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.example.com</li>
                                 <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +123 456 7890</li>
