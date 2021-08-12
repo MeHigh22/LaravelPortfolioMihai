@@ -9,8 +9,6 @@
 @include("partials.pagesections.facts")
 @include("partials.pagesections.skills")
 @include("partials.pagesections.portfolio")
-@include("partials.pagesections.skills")
-@include("partials.pagesections.portfolio")
 @include("partials.pagesections.services")
 @include("partials.pagesections.contact")
 @include("partials.pagesections.footer")
