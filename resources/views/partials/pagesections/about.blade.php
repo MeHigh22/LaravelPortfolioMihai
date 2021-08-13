@@ -19,26 +19,29 @@
                         magna aliqua.
                     </p>
                     <div class="row">
+                        @foreach ($abouts as $about )
                         <div class="col-lg-6">
                             <ul>
                                 {{-- A partir d'ici insérer les données à partir de la DB --}}
-                                <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 1 May 1995</li>
-                                <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> www.example.com</li>
-                                <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +123 456 7890</li>
-                                <li><i class="icofont-rounded-right"></i> <strong>City:</strong> City : New York, USA
+                                <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> {{$about->birthday}}</li>
+                                <li><i class="icofont-rounded-right"></i> <strong>Website:</strong> {{$about->website}}</li>
+                                <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> {{$about->phone}}}</li>
+                                <li><i class="icofont-rounded-right"></i> <strong>City:</strong> {{$about->city}}
                                 </li>
                             </ul>
                         </div>
                         <div class="col-lg-6">
                             <ul>
-                                <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> 30</li>
-                                <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> Master</li>
-                                <li><i class="icofont-rounded-right"></i> <strong>PhEmailone:</strong> email@example.com
+                                <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> {{$about->age}}</li>
+                                <li><i class="icofont-rounded-right"></i> <strong>Degree:</strong> {{$about->degree}}</li>
+                                <li><i class="icofont-rounded-right"></i> <strong>PhEmailone:</strong> {{$about->email}}
                                 </li>
-                                <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> Available</li>
+                                <li><i class="icofont-rounded-right"></i> <strong>Freelance:</strong> {{$about->freelance}}</li>
                             </ul>
                         </div>
                     </div>
+                    @endforeach
+
                     <p>
                         Officiis eligendi itaque labore et dolorum mollitia officiis optio vero. Quisquam sunt adipisci
                         omnis et ut. Nulla accusantium dolor incidunt officia tempore. Et eius omnis.
